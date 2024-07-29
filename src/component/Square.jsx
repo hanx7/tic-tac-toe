@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Square({ value, onClick }) {
+export function Square({ value, onClick }) {
   return (
     <button className="square" onClick={onClick}>
       {value}
