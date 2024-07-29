@@ -61,7 +61,6 @@ export function Board() {
       <Square value={squares[i]} onClick={() => handleClick(i)} />
     );
   }
-
   return (
     <div className="board-container">
       <div className="board">
